@@ -1,5 +1,8 @@
 {
   "name": "Task",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }

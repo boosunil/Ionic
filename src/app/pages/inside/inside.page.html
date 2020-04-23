@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Inside</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  Welcome to the members only area!
+
+  <div *ngFor="let item of data">
+    <p>{{item.email}}</p>
+  </div>
+  <ion-button expand="full" (click)="loadSpecialInfo()"
+    >Load Special Info</ion-button
+  >
+  <ion-button expand="full" (click)="logout()">Logout</ion-button>
+</ion-content>
